@@ -28,7 +28,7 @@ function showWeather(evt) {
     // $.get(url, formData, function(results) {
     //     $('#weather-info').html(results.forecast);
     // });
-    $('#weather-info').load(url);
+    $('#weather-info').load(url, formData);
     // .load( url [, data ] [, complete ] )
     // Defaults to POST request if passing a second non-function arg [formData]
 
